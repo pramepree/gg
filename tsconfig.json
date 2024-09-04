@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",      // Set the target to ES2015 or later
+      "lib": ["ES2015"],       // Include ES2015 in the library
+      "module": "commonjs",    // Use CommonJS for Node.js
+      "esModuleInterop": true, // Ensure compatibility with ES module syntax
+      "skipLibCheck": true,    // Skip type checking for libraries
+      "strict": true,          // Enable strict type checking
+      "outDir": "./dist"       // Output directory for transpiled JS files
+    }
+  }
+  
